@@ -253,14 +253,14 @@
                 </ul>
             </section>
             <section class="aside_section">
-                <h3 class="aside_title aside_titles_themes">Темы</h3>
+                <h3 class="aside_title aside_title_themes">Темы</h3>
                 <ul class="themes">
-                    <li class="themes_item"><a class="item_address themes_item_address" href="#0">Красота <sup class="number">12</sup></a></li>
-                    <li class="themes_item"><a class="item_address themes_item_address" href="#0">Здоровье <sup class="number">4</sup></a></li>
-                    <li class="themes_item"><a class="item_address themes_item_address" href="#0">Образ жизни <sup class="number">145</sup></a></li>
-                    <li class="themes_item"><a class="item_address themes_item_address" href="#0">Музыка <sup class="number">28</sup></a></li>
-                    <li class="themes_item"><a class="item_address themes_item_address" href="#0">Спорт <sup class="number">62</sup></a></li>
-                    <li class="themes_item"><a class="item_address themes_item_address" href="#0">Йога <sup class="number">8</sup></a></li>
+                    <li class="themes_item"><a class="item_address themes_item_address" href="#0">Красота </a><span class="number">12</span></li>
+                    <li class="themes_item"><a class="item_address themes_item_address" href="#0">Здоровье </a><span class="number">4</span></li>
+                    <li class="themes_item"><a class="item_address themes_item_address" href="#0">Образ жизни </a><span class="number">145</span></li>
+                    <li class="themes_item"><a class="item_address themes_item_address" href="#0">Музыка </a><span class="number">28</span></li>
+                    <li class="themes_item"><a class="item_address themes_item_address" href="#0">Спорт </a><span class="number">62</span></li>
+                    <li class="themes_item"><a class="item_address themes_item_address" href="#0">Йога </a><span class="number">8</span></li>
                 </ul>
             </section>
         </aside>
@@ -356,7 +356,7 @@
     <div class="popup">
         <div class="popup_container">
             <h3 class="aside_title topbot_aside_title feedback_title">Ваш фидбек</h3>
-            <form class="periodicity">
+            <form class="feedback_form">
                 <label>
                     <span class="form_hint">Как часто вы заходите на сайт?</span>
                     <select class="field periodicity_field">
@@ -366,21 +366,21 @@
                         <option>Несколько раз в год</option>
                     </select>
                 </label>
+                <div class="container_radio">
+                    <span class="form_hint form_hint_email">Вы подписаны на e-mail рассылку?</span>
+                    <label class="radio_group">
+                        <input type="radio" class="radio" name="radio-group" checked>
+                        <span class="radio_text">Да</span>
+                    </label>
+                    <label class="radio_group">
+                        <input type="radio" class="radio" name="radio-group">
+                        <span class="radio_text">Нет</span>
+                    </label>
+                </div>
+                <span class="form_hint">Расскажите, какой контент вы хотели бы видеть на&nbsp;нашем сайте?</span>
+                <textarea class="field textarea" placeholder="Может, больше рецептов?"></textarea>
+                <button type="submit" class="subscribe_button feedback_button">Отправить</button>
             </form>
-            <div class="container_radio">
-                <span class="form_hint form_hint_email">Вы подписаны на e-mail рассылку?</span>
-                <label class="radio_group">
-                    <input type="radio" class="radio" name="radio-group" checked>
-                    <span class="radio_text">Да</span>
-                </label>
-                <label class="radio_group">
-                    <input type="radio" class="radio" name="radio-group">
-                    <span class="radio_text">Нет</span>
-                </label>
-            </div>
-            <span class="form_hint">Расскажите, какой контент вы хотели бы видеть на&nbsp;нашем сайте?</span>
-            <textarea class="field textarea" placeholder="Может, больше рецептов?"></textarea>
-            <button type="submit" class="subscribe_button feedback_button">Отправить</button>
             <button class="popup_close" type="button">
                 <span class="visually-hidden">Закрыть окно</span>
             </button>
